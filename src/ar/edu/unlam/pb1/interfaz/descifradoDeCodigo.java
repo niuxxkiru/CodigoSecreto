@@ -19,6 +19,10 @@ public class descifradoDeCodigo {
 		for (int i = 0; i < codigoIngresado.length(); i += 2) {
 			if ((i + 1) < codigoIngresado.length()) {
 				String codigoDeADosChar = codigoIngresado.substring(i, i + 2);
+				System.out.println("parte del codigo: "+codigoDeADosChar);
+			}else {
+				String codigoDeAUnChar= codigoIngresado.substring(i, i+1);
+				System.out.println("parte del codigo de a uno: "+codigoDeAUnChar);
 			}
 		}
 		
