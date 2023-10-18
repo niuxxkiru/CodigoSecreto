@@ -2,7 +2,7 @@ package ar.edu.unlam.pb1.interfaz;
 
 import java.util.Scanner;
 
-public class descrifradoDeCodigo {
+public class descifradoDeCodigo {
 
 	static Scanner teclado = new Scanner(System.in);
 
@@ -21,6 +21,8 @@ public class descrifradoDeCodigo {
 				String codigoDeADosChar = codigoIngresado.substring(i, i + 2);
 			}
 		}
+		
+		System.out.println("Probando");
 
 	}
 
